@@ -29,6 +29,7 @@ CREATE TABLE tour
 CREATE TABLE hotel
 (
     id_hotel SERIAL,
+    hotel_name TEXT,
     stars INTEGER,
     room_standart : INTEGER
     room_delux : INTEGER

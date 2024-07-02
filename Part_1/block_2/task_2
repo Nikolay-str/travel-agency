@@ -1,0 +1,17 @@
+INSERT INTO tour(Tour_where,Tour_from_where,hotel,days)
+    VALUES
+    ('Russia','Spain','Alannia Costa Dorada',7),
+    ('Belarus','Egypt', 'Jaz Aquaviva',14),
+    ('Russia','Thailand', 'Botany Beach' ,30);
+
+INSERT INTO tourist(Firstname,Middlename,Lastname,Phone,tour)
+    VALUES
+    ('Nikolay','Sergeevich','Rostovtsev',72-64-89,1),
+    ('Ivan','Ivanovich','Ivanov',45-73-12,4),
+    ('Alexey','Alexeevich','Alexeev',27-01-33,7);
+
+INSERT INTO hotel(stars,room_standart,room_delux)
+    VALUES
+    (3,2,3),
+    (4,1,2),
+    (5,4,1);

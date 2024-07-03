@@ -13,6 +13,5 @@ INSERT INTO tourist(firstname,middlename,lastname,phone,tour)
 INSERT INTO hotel(hotel_name,stars,room_standart,room_delux)
     VALUES
     ('valensia',3,2,3),
-    ('sharm el sheikh,4,1,2),
+    ('sharm el sheikh',4,1,2),
     ('hilton pattaya',5,4,1);
-

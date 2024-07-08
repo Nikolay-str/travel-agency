@@ -1,23 +1,23 @@
-SELECT * FROM tour
-    ORDER BY hotel;
+UPDATE tourist
+    SET name = 'valery',
+    WHERE id_tourist = 1;
 
-SELECT * FROM tourist
-    ORDER BY firstname;
+UPDATE tour
+    SET days = 7,
+    WHERE days = 10;
 
-SELECT firstname
-    FROM tourist
-    WHERE firstname = 'nikolay'
-    ORDER BY firstname
+UPDATE hotel
+    SET hotel_name = 'valensia gold',
+    WHERE id_hotel = 1;
 
-SELECT tour_where
-    FROM tour
-    WHERE tour_where = 'belarus'
-    ORDER BY tour_where
+UPDATE tourist
+    SET phone = 457320,
+    WHERE phone = 457312;
 
-SELECT hotel_name
-    FROM hotel
-    WHERE hotel_name = 'valensia'
-    ORDER BY hotel_name
+UPDATE tour
+    SET tour_from_where = 'Mexico',
+    WHERE tour_from_where = 'Egypt';
 
-SELECT hotel, count(*) FROM stars
-GROUP BY hotel;
+UPDATE hotel
+    SET stars = 3,
+    WHERE stars = 4;
